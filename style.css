@@ -39,11 +39,17 @@ body {
     .full {
         top:100px !important;
     }
+    .sexy_line{
+        background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 150, from(#000), to(#fff));
+    }
   }
 
   @media only screen and (min-width: 700px) {
     .full {
         top:200px !important;
+    }
+    .sexy_line{
+        background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#000), to(#fff));
     }
   }
 
@@ -58,8 +64,7 @@ body {
     border:none;
     color:white;
     height:1px;
-    background:black;
-    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#000), to(#fff));
+    /* background:black; */
 }
 
 @keyframes fadein {
